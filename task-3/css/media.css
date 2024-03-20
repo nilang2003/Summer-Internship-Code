@@ -1,0 +1,590 @@
+/* no problem */
+@media screen and (max-width: 1440px) {}
+
+/* no problem */
+@media screen and (max-width: 1300px) {}
+
+/* width = 1025px  */
+@media screen and (max-width: 1200px) {
+    .rate_card_main {
+        gap: 20px;
+    }
+
+    .we_know_the_feeling_para .p_22,
+    .we_know_the_feeling_para .p_26,
+    .its_about_your_why_para_2 {
+        max-width: 480px;
+    }
+}
+
+/* width = 901px */
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0px 40px;
+    }
+
+    .header_nav_bar ul li a {
+        font-size: 16px;
+    }
+
+    .h_80 {
+        font-size: 70px;
+        line-height: 90px;
+    }
+
+    .h_38 {
+        font-size: 35px;
+    }
+
+    .marketing_para {
+        padding-bottom: 140px;
+    }
+
+    .who_are_we_image {
+        max-width: 350px;
+    }
+
+    .who_are_we_text {
+        max-width: 400px;
+    }
+
+    .clients_images {
+        max-width: 595px;
+        gap: 60px;
+    }
+
+    .h_37 {
+        font-size: 26px;
+    }
+
+    .we_know_the_feeling_image {
+        max-width: 379.97px;
+    }
+
+    .its_about_your_why_image {
+        width: 44.427%;
+    }
+
+
+    .we_know_the_feeling_para .p_26 {
+        max-width: 415px;
+    }
+
+    .h_12 {
+        font-size: 11px;
+    }
+}
+
+/* width = 768px */
+@media screen and (max-width: 900px) {
+    .herobanner_heading {
+        padding: 160px 0px 138px 0px;
+    }
+
+    .mobileIcon {
+        display: block;
+    }
+
+    .mobileIcon {
+        height: 35px;
+        cursor: pointer;
+        z-index: 99999;
+        position: relative;
+        display: flex;
+        align-items: center;
+        min-width: 44px;
+    }
+
+    .mobileIcon a {
+        width: 55px;
+        height: 7px;
+        border-radius: 0;
+        display: inline-block;
+        background: #000;
+        position: relative;
+        -webkit-transition: all .3s ease 0s;
+        -moz-transition: all .3s ease 0s;
+        -ms-transition: all .3s ease 0s;
+        -o-transition: all .3s ease 0s;
+        transition: all .3s ease 0s;
+    }
+
+    .mobileIcon a:before {
+        position: absolute;
+        content: '';
+        width: 54px;
+        height: 7px;
+        border-radius: 0;
+        background: #ffffff;
+        top: -12px;
+        -webkit-transition: all .3s ease 0s;
+        -moz-transition: all .3s ease 0s;
+        -ms-transition: all .3s ease 0s;
+        -o-transition: all .3s ease 0s;
+        transition: all .3s ease 0s;
+    }
+
+    .mobileIcon a:after {
+        position: absolute;
+        content: '';
+        width: 54px;
+        height: 7px;
+        border-radius: 0;
+        background: #000;
+        bottom: -12px;
+        -webkit-transition: all .3s ease 0s;
+        -moz-transition: all .3s ease 0s;
+        -ms-transition: all .3s ease 0s;
+        -o-transition: all .3s ease 0s;
+        transition: all .3s ease 0s;
+    }
+
+    .menu-open .mobileIcon a {
+        background: rgb(255 255 255 / 0%);
+    }
+
+    .menu-open .mobileIcon a:before {
+        transform: rotate(45deg);
+        top: -1px;
+        background: #ffffff;
+    }
+
+    .menu-open .mobileIcon a:after {
+        transform: rotate(-45deg);
+        top: -1px;
+        background: #ffffff;
+    }
+
+    .mobileIcon a:before {
+        width: 24px;
+        height: 4px;
+        border-radius: 5px;
+        background: white;
+    }
+
+    .mobileIcon a,
+    .mobileIcon a:after {
+        width: 24px;
+        height: 4px;
+        border-radius: 5px;
+        background: white;
+    }
+
+    .mobileIcon a {
+        width: 24px;
+    }
+
+    .right_menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #101031;
+        bottom: 0;
+        z-index: 999;
+        width: 100%;
+        transition: transform 300ms ease-in-out 0s;
+        transform: translate3d(100%, 0, 0);
+        transition: transform 300ms ease, opacity 300ms ease;
+        padding: 50px 30px 30px;
+        box-shadow: 0 10px 10px 0 rgb(0 0 0 / 23%);
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        max-width: 100%;
+    }
+
+    .menu-open .right_menu {
+        transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+        backface-visibility: hidden;
+        transition: transform 300ms ease, opacity 300ms ease;
+    }
+
+    .menu-open {
+        overflow: hidden;
+    }
+
+    .container {
+        padding: 0px 30px;
+    }
+
+    .header_nav_bar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+    }
+
+    .header_nav_bar ul li a {
+        font-size: 23px;
+    }
+
+    .marketing_para {
+        padding-bottom: 80px;
+    }
+
+    .who_are_we {
+        padding-top: 15px;
+        gap: 27px;
+    }
+
+    .how_do_we_work {
+        padding-bottom: 20px;
+    }
+
+    .clients_images {
+        gap: 25px;
+    }
+
+    .h_38 {
+        font-size: 31px;
+    }
+
+    .h_37 {
+        line-height: 30px;
+    }
+
+    .h_20 {
+        font-size: 23px;
+    }
+
+    .its_about_your_why_para_2 {
+        max-width: 420px;
+    }
+
+    .p_18 {
+        font-size: 16px;
+    }
+
+    .its_about_your_why_image {
+        width: 50.427%;
+    }
+
+    .p_26 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .its_about_your_why_para_1 ul {
+        padding-top: 4px;
+    }
+
+    .moving_you_from_doubt {
+        padding: 60px 0px 70px 0px;
+    }
+
+    .h_56 {
+        font-size: 52px;
+    }
+
+    .moving_you_from_doubt_heading {
+        padding-bottom: 45px;
+    }
+
+    .why_our_clients_love_us {
+        padding: 50px 0px 60px 0px;
+    }
+
+    .why_our_clients_love_us_heading {
+        padding-bottom: 40px;
+    }
+
+    .we_know_the_feeling_image {
+        max-width: 310.97px;
+        max-height: 520px;
+    }
+
+    .we_know_the_feeling {
+        padding: 70px 0px;
+    }
+
+    .here_is_how_we_help {
+        padding: 40px 0px 50px 0px;
+    }
+
+    .rate_card_rate {
+        padding-bottom: 20px;
+    }
+
+    .footer_last_line {
+        display: block;
+    }
+
+    .footer_last_line_1 {
+        text-align: center;
+    }
+}
+
+
+/* width = 601px */
+@media screen and (max-width: 767px) {
+    .clients_images {
+        gap: 30px;
+    }
+
+    .rate_card_main {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .h_54 {
+        font-size: 40px;
+    }
+
+    .we_know_the_feeling_content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .its_about_your_why {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .its_about_your_why_para_1 ul {
+        padding-left: 30px;
+    }
+
+    .its_about_your_why_para_2 {
+        max-width: 468px;
+        text-align: justify;
+    }
+
+    .p_18 {
+        font-size: 20px;
+    }
+
+    .footer_contact {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .footer_heading_form {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        padding-bottom: 40px;
+    }
+
+    .footer_image {
+        padding-bottom: 20px;
+    }
+
+    .footer_last_line_1 {
+        padding-bottom: 10px;
+    }
+
+    .h_12 {
+        font-size: 15px;
+    }
+
+    .footer_last_line_2 {
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer_last_line_2 a{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .its_about_your_why_heading{
+        text-align: center;
+    }
+
+    .we_know_the_feeling_image img{
+        padding-bottom: 20px;
+    }
+
+    .Marriott_Bonvoy_logo {
+        width: 40.48%;
+    }
+
+    .clients {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* width = 480px */
+@media screen and (max-width: 600px) {
+    .clients_images {
+        flex-direction: column;
+    }
+
+    .clients_heading{
+        padding-bottom: 30px;
+    }
+
+    .how_do_we_work {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .how_do_we_work_text .h_38{
+        text-align: center;
+    }
+
+    .how_do_we_work_text{
+        text-align: justify;
+    }
+
+    .who_are_we {
+        padding-top: 15px;
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .who_are_we_text {
+        text-align: justify;
+    }
+
+    .who_are_we_text .h_38{
+        text-align: center;
+    }
+
+    .arrow_image {
+        padding: 20px 0px;
+    }
+
+    .marketing {
+        padding-bottom: 0px;
+    }
+
+    .clients_content {
+        padding-bottom: 40px;
+    }
+
+    .h_54 {
+        font-size: 60px;
+    }
+
+    .we_know_the_feeling_heading .h_54{
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .we_know_the_feeling_btn {
+        margin-top: 0px;
+    }
+
+    .why_our_clients_love_us_videos_main {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .h_56 {
+        font-size: 58px;
+    }
+
+    .its_about_your_why_image {
+        width: 85.427%;
+        padding-bottom: 30px;
+    }
+
+    .its_about_your_why_heading {
+        padding-bottom: 30px;
+    }
+
+    .herobanner_heading {
+        padding: 112px 0px 45px 0px;
+    }
+
+    .Marriott_Bonvoy {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .herobanner_button {
+        margin-top: 35px;
+    }
+
+    .marketing_para {
+        padding-bottom: 50px;
+    }
+
+    .who_are_we {
+        padding-bottom: 45px;
+    }
+
+    .we_know_the_feeling {
+        padding: 40px 0px;
+    }
+
+    .we_know_the_feeling_para .p_22 {
+        padding-bottom: 25px;
+    }
+
+    .we_know_the_feeling_para .p_26 {
+        padding-bottom: 30px;
+    }
+}
+
+/* width = 375px */
+@media screen and (max-width: 479px) {
+    .h_80 {
+        font-size: 52px;
+        line-height: 55px;
+    }
+
+    .p_38 {
+        font-size: 25px;
+        line-height: 45.9px;
+    }
+
+    .Marriott_Bonvoy_logo {
+        padding-bottom: 60px;
+    }
+
+    .we_know_the_feeling_heading .h_54 {
+        font-size: 56px;
+        line-height: 70px;
+    }
+
+    .we_know_the_feeling {
+        padding: 20px 0px;
+    }
+
+    .h_54 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .moving_you_from_doubt {
+        padding: 30px 0px 40px 0px;
+    }
+
+    .footer_heading_form {
+        padding-top: 30px;
+    }
+
+    .p_26 {
+        font-size: 18px;
+    }
+
+    .its_about_your_why_para_1 {
+        padding-bottom: 20px;
+    }
+
+    .we_know_the_feeling_para .p_26 {
+        padding-bottom: 40px;
+    }
+
+    .we_know_the_feeling_para .p_22 {
+       padding-bottom: 30px;
+    }
+
+    .Marriott_Bonvoy {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .marketing_para {
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 374px) {}
