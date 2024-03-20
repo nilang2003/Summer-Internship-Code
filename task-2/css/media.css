@@ -1,0 +1,244 @@
+/* width = 1201px */
+@media screen and (max-width: 1300px) {
+    .h_170 {
+        font-size: 154px;
+        line-height: 150px;
+    }
+
+    .search_selection_image {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .search_selection_text {
+        max-width: 540px;
+        width: 100%;
+    }
+
+    .search_selection_list {
+        padding-left: 20px;
+        gap: 20px;
+    }
+
+    .hr_text {
+        max-width: 557px;
+    }
+
+    .executive_coaching_text {
+        max-width: 526px;
+    }
+
+    .testimonials_slider_2_text {
+        max-width: 620px;
+    }
+
+    .testimonials_slider_2_img {
+        max-width: 430px;
+        width: 100%;
+    }
+
+    .testimonials_slider_2_text {
+        max-width: 470px;
+    }
+
+    .contact_us_map {
+        max-width: 600px;
+    }
+
+    .contact_us_form {
+        max-width: 450px;
+    }
+}
+
+/* width = 1025px */
+@media screen and (max-width: 1200px) {
+    .h_170 {
+        font-size: 137px;
+        line-height: 137px;
+    }
+
+    .search_selection_image img {
+        width: 100%;
+    }
+
+    .search_selection_main {
+        gap: 20px;
+    }
+
+    .executive_coaching_main {
+        gap: 20px;
+    }
+
+    .contact_us_form_map {
+        gap: 20px;
+    }
+
+    .h_90 {
+        font-size: 78px;
+    }
+
+    .h_75 {
+        font-size: 73px;
+    }
+
+    .testimonials_slider_2 {
+        gap: 30px;
+    }
+
+    .statement {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+/* width = 901px */
+@media screen and (max-width: 1024px) {
+    .meet_the_team_images_1_text {
+        left: 50px;
+    }
+
+    .h_170 {
+        font-size: 119px;
+        line-height: 120px;
+    }
+
+    .h_90 {
+        font-size: 68px;
+    }
+
+    .h_75 {
+        font-size: 63px;
+    }
+
+    .testimonials_slider_2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* width = 768px */
+@media screen and (max-width: 900px) {
+    .meet_the_team_images_1_text {
+        left: 50px;
+    }
+
+    .h_170 {
+        font-size: 116px;
+        line-height: 112px;
+    }
+
+    .h_90 {
+        line-height: 80px;
+    }
+
+    .h_75 {
+        line-height: 70.67px;
+    }
+
+    .h_45 {
+        font-size: 30px;
+        line-height: 25.86px;
+    }
+
+    .search_selection_main {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hr_main {
+        flex-direction: column-reverse;
+    }
+
+
+    .executive_coaching_main {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* width = 601px */
+@media screen and (max-width: 767px) {
+    .button {
+        max-width: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .meet_the_team_images {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .meet_the_team_images_1_text {
+        left: 0px;
+        top: 900px;
+    }
+
+    .meet_the_team_images_1,
+    .meet_the_team_images_2 {
+        max-width: none;
+    }
+
+    .contact_us_form_map {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact_us_form {
+        max-width: none;
+        text-align: center;
+    }
+
+    .h_170 {
+        font-size: 89px;
+        line-height: 75px;
+    }
+
+    .h_90{
+        font-size: 56px;
+        line-height: 65px;
+    }
+
+    .h_75{
+        font-size: 53px;
+        line-height: 58.67px;
+    }
+}
+
+/* width = 480px */
+@media screen and (max-width: 600px) {
+    .h_170 {
+        font-size: 67px;
+        line-height: 60px;
+    }
+
+    .h_90 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .h_75 {
+        font-size: 40px;
+        line-height: 45.67px;
+    }
+
+    .meet_the_team_images_1_text {
+        top: 641px;
+    }
+}
+
+/* width = 375px */
+@media screen and (max-width: 479px) {
+    .container{
+        padding: 0 20px;
+    }
+
+    .contact_us_heading {
+       text-align: center;
+    }
+
+    .meet_the_team_images_1_text {
+        top: 550px;
+    }
+}
