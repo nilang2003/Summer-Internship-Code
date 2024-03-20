@@ -1,0 +1,805 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    font-style: normal;
+    overflow-x: auto;
+    position: relative;
+    z-index: -1;
+    background-color: #F5F5F5;
+    font-family: 'Manrope', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --dark-blue: #0A2A71;
+    --sky-blue: #4199C9;
+    --pista-green: #54BCB3;
+    --opacity-green: rgb(84 188 179 / 44%);
+    --pera-black: #3E3E3E;
+    --btn-green: #7DBBB2;
+    --light-blue: #5798C5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+a {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1396px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 26.1px;
+    font-weight: 700;
+    color: #ED462F;
+    display: inline-block;
+    background: #FBE8D3;
+    border-radius: 30px;
+    padding: 17px 77px 17px 30px;
+}
+
+.h_12 {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.h_14 {
+    font-size: 14px;
+    line-height: 20.3px;
+    font-weight: 600;
+}
+
+.h_18 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+}
+
+.h_20 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.h_34 {
+    font-size: 34px;
+    line-height: 46.44px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #1B2236;
+}
+
+.h_37 {
+    font-size: 37px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.h_38 {
+    font-size: 38px;
+    line-height: 50.4px;
+    font-weight: 700;
+}
+
+.h_40 {
+    font-size: 40px;
+    line-height: 51px;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+}
+
+.h_44 {
+    font-size: 44px;
+    line-height: 51px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+}
+
+.h_54 {
+    font-size: 54px;
+    line-height: 81px;
+    font-weight: 700;
+}
+
+.h_56 {
+    font-size: 56px;
+    line-height: 65px;
+    font-weight: 300;
+    letter-spacing: -0.01em;
+    color: #1B2236;
+}
+
+.h_80 {
+    font-size: 80px;
+    line-height: 100px;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+}
+
+.p_16 {
+    font-size: 16px;
+    line-height: 21.86px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.p_18 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+.p_20 {
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 400;
+}
+
+.p_22 {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+.p_26 {
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.p_38 {
+    font-size: 38px;
+    line-height: 51.9px;
+    font-weight: 700;
+}
+
+
+
+.header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 70px;
+}
+
+.right_menu {
+    max-width: 619px;
+    width: 100%;
+}
+
+.header_nav_bar ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 10px;
+    position: relative;
+    font-size: 17px;
+    z-index: 1;
+}
+
+.header_nav_bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: baseline;
+}
+
+.header_nav_bar ul li:last-child {
+    background-color: #FBE8D3;
+    border-radius: 39px;
+    Padding: 10px;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 26.1px;
+    font-weight: 700;
+}
+
+.header_nav_bar ul li:last-child a {
+    color: #ED462F;
+}
+
+.herobanner {
+    position: relative;
+    margin-top: -161px;
+}
+
+.herobanner_background_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.herobanner_background_image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.herobanner_background_image::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(35, 16, 69, 0.9405) 3.86%, rgba(54, 19, 113, 0.5346) 56.35%, rgba(54, 20, 114, 0.099) 99.06%);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.herobanner_heading {
+    max-width: 650px;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 234px 0px 138px 0px;
+    position: relative;
+}
+
+.herobanner_button {
+    margin-top: 65px;
+    max-width: 240px;
+    position: relative;
+    width: 100%;
+}
+
+.herobanner_button img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.marketing {
+    padding-top: 67px;
+    padding-bottom: 53px;
+    background: #FAF7FE;
+}
+
+.marketing_main {
+    max-width: 1138px;
+    margin: 0 auto;
+}
+
+.marketing_para {
+    text-align: center;
+    letter-spacing: 0.02em;
+    padding-bottom: 195px;
+}
+
+.marketing_para mark {
+    background: #E8D7FE;
+}
+
+.how_do_we_work {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 39px;
+}
+
+.how_do_we_work_text {
+    max-width: 491px;
+    width: 100%;
+}
+
+.how_do_we_work_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.clients_content {
+    background-color: #FFFFFF;
+    padding-bottom: 80px;
+}
+
+.arrow_image {
+    max-width: 111.792px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.arrow_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.who_are_we {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.who_are_we_image {
+    max-width: 395px;
+    width: 100%;
+}
+
+.who_are_we_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.who_are_we_text {
+    max-width: 470px;
+    width: 100%;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients_images {
+    max-width: 679px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+.here_is_how_we_help {
+    padding: 80px 0px 72px 0px;
+    background: #210F41;
+}
+
+.here_is_how_we_help_main {
+    max-width: 1136px;
+    margin: 0 auto;
+}
+
+.here_is_how_we_help_heading {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 32px;
+    color: #FFFFFF;
+}
+
+.rate_card_main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1136px;
+    width: 100%;
+    padding-bottom: 54px;
+}
+
+.rate_card {
+    background-color: #FFFFFF;
+    padding: 38px 0px 41px 0px;
+    border-radius: 20px;
+    max-width: 354px;
+    width: 100%;
+}
+
+.rate_card_image {
+    padding-bottom: 20px;
+}
+
+.rate_card_heading {
+    color: #ED462F;
+    padding-bottom: 15px;
+}
+
+.rate_card_rate {
+    padding-bottom: 30px;
+}
+
+.rate_card_facilities ul {
+    list-style-type: square;
+    text-align: start;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.rate_card_facilities ul li {
+    padding-bottom: 16px;
+}
+
+.here_is_how_we_help_btn {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    position: relative;
+}
+
+.here_is_how_we_help_btn_arrow {
+    max-width: 60px;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: absolute;
+    padding: 16px 20px;
+    right: 0;
+}
+
+.Marriott_Bonvoy {
+    margin: 100px 72px 0px 72px;
+    position: relative;
+}
+
+.Marriott_Bonvoy_background_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.Marriott_Bonvoy_background_image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    max-width: 1296px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Marriott_Bonvoy_trial {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 48px;
+}
+
+.Marriott_Bonvoy_logo {
+    width: 14.48%;
+    padding-bottom: 340px;
+}
+
+.Marriott_Bonvoy_logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.Marriott_Bonvoy_text {
+    color: #FFFFFF;
+}
+
+.Marriott_Bonvoy_btn {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    width: fit-content;
+    position: relative;
+}
+
+.Marriott_Bonvoy_btn .button {
+    padding: 17px 72px 17px 30px;
+}
+
+.we_know_the_feeling {
+    padding: 149px 0px 130px 0px;
+}
+
+.we_know_the_feeling_main {
+    max-width: 1137px;
+    margin: 0 auto;
+}
+
+.we_know_the_feeling_heading {
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.we_know_the_feeling_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.we_know_the_feeling_para .p_22 {
+    max-width: 569px;
+    width: 100%;
+    padding-bottom: 56px;
+}
+
+.we_know_the_feeling_para .p_26 {
+    max-width: 563px;
+    width: 100%;
+    padding-bottom: 71px;
+    color: #ED462F;
+}
+
+.we_know_the_feeling_image img {
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    height: 100%;
+}
+
+.we_know_the_feeling_btn {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    width: fit-content;
+    position: relative;
+}
+
+.we_know_the_feeling_image {
+    max-width: 410.97px;
+    width: 100%;
+    position: relative;
+    padding: 225px 0;
+}
+
+.why_our_clients_love_us {
+    padding: 100px 0px 80px 0px;
+    background: #13242A;
+}
+
+.why_our_clients_love_us_main {
+    max-width: 1214px;
+    margin: 0 auto;
+}
+
+.why_our_clients_love_us_heading {
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 90px;
+}
+
+.why_our_clients_love_us_videos_main {
+    display: flex;
+    max-width: 1214px;
+    width: 100%;
+    gap: 20px;
+}
+
+.why_our_clients_love_us_videos {
+    background: #FFFFFF;
+    border-radius: 14px;
+    height: 100%;
+}
+
+.why_our_clients_love_us_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.why_our_clients_love_us_image {
+    max-width: 384px;
+    width: 100%;
+}
+
+.why_our_clients_love_us_text {
+    padding: 36px 0px 34px 32px;
+    color: #13242A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.why_our_clients_love_us a {
+    text-decoration: none;
+}
+
+.why_our_clients_love_us_text .h_20 {
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.why_our_clients_love_us_text .h_14 {
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.moving_you_from_doubt {
+    padding: 120px 0px 130px 0px;
+}
+
+.moving_you_from_doubt_main {
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+.moving_you_from_doubt_heading {
+    max-width: 712px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 88px;
+    text-align: center;
+}
+
+.moving_you_from_doubt_heading .h_56 span {
+    font-weight: 800;
+}
+
+.its_about_your_why {
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+
+.its_about_your_why_heading span {
+    background: #E8D7FE;
+}
+
+.its_about_your_why_heading {
+    padding-bottom: 43px;
+}
+
+.its_about_your_why_para_1 {
+    color: #ED462F;
+    max-width: 566px;
+    width: 100%;
+    padding-bottom: 42px;
+}
+
+.its_about_your_why_para_1 ul {
+    list-style-type: decimal;
+    padding-top: 14px;
+}
+
+.its_about_your_why_para_2 {
+    max-width: 550px;
+    width: 100%;
+}
+
+.its_about_your_why_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.its_about_your_why_image {
+    max-width: 575px;
+    width: 100%;
+}
+
+.footer {
+    background-color: #13242A;
+    padding: 45px 0px 32px 0px;
+}
+
+.footer_contact_logo_statement {
+    display: flex;
+    align-items: center;
+}
+
+.footer_contact_statement .h_14 {
+    font-weight: 400;
+}
+
+.footer_contact_statement {
+    max-width: 204px;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer_form_btn {
+    margin-top: 35px;
+}
+
+.footer_form_btn .button {
+    padding: 17px 50px;
+}
+
+.footer_contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 20px;
+}
+
+.address {
+    padding-bottom: 34px;
+}
+
+.contact_address a {
+    color: #FFFFFF;
+}
+
+.footer_heading {
+    color: #FFFFFF;
+    max-width: 482px;
+    width: 100%;
+}
+
+.footer_heading span {
+    color: #ED462F;
+}
+
+.footer_border {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.footer_heading_form {
+    padding-top: 74px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_form {
+    max-width: 343px;
+    width: 100%;
+}
+
+.footer_form input {
+    width: 100%;
+    background: #13242A;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.footer_form input:last-child {
+    margin-bottom: 0px;
+}
+
+.footer_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer_image {
+    max-width: 1352px;
+    width: 100%;
+}
+
+.footer_last_line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_last_line_2 {
+    display: flex;
+    gap: 30px;
+}
