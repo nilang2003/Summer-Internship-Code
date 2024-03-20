@@ -1,0 +1,1392 @@
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 1300px) {}
+
+/* width 1025px */
+@media screen and (max-width: 1200px) {
+    .title_h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .title_h2 {
+        font-size: 55px;
+        line-height: 80px;
+    }
+
+    .title_h3 {
+        font-size: 38px;
+        line-height: 52px;
+    }
+
+    .title_h4 {
+        font-size: 20px;
+    }
+
+    .title_h6 {
+        font-size: 26px;
+        line-height: 37px;
+    }
+
+    .p_20 p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .p_20 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .p_21 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    .p_40 {
+        font-size: 37px;
+        line-height: 55px;
+    }
+
+    .p_45 {
+        font-size: 45px;
+        line-height: 68px;
+    }
+
+    .container {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+
+    .button {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 10px 38px;
+    }
+
+    .header {
+        padding-top: 40px;
+    }
+
+    .nav_bar ul a {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .header_logo {
+        width: 20.74%;
+    }
+
+    .hero-banner-text {
+        padding: 220px 0px 100px 0px;
+    }
+
+    .herobanner_info p span {
+        font-size: 32px;
+        line-height: 55px;
+    }
+
+    .herobanner_button {
+        margin-top: 50px;
+    }
+
+    .company_marketing {
+        margin: -50px 47px 0px 47px;
+        padding: 50px 0px 43px 0px;
+    }
+
+    .company_marketing_heading {
+        padding-bottom: 50px;
+    }
+
+    .company_marketing_button {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .who_are_we_text h2 {
+        padding-bottom: 30px;
+    }
+
+    .who_are_we_button {
+        padding-top: 40px;
+    }
+
+    .who_are_we_img {
+        width: 33.41%;
+    }
+
+    .what_we_offer {
+        padding: 50px 0px 80px 0px;
+    }
+
+    .what_we_offer_heading h2 {
+        padding-bottom: 30px;
+    }
+
+    .contact {
+        padding: 10px 0px 7px 0px;
+    }
+
+    .check_what_our_clients_are_saying {
+        padding: 40px 0px 50px 0px;
+    }
+
+    .testimonials_headings {
+        padding-bottom: 70px;
+    }
+
+    .testimonials_face {
+        width: 26.72%;
+    }
+
+    .testimonials_text {
+        width: 510px;
+    }
+
+    .our_partners {
+        padding: 39px 0px 26px 0px;
+    }
+
+    .get_in_touch_heading {
+        padding-bottom: 60px;
+    }
+
+    .company a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .Services a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .subscribe {
+        max-width: 190px;
+    }
+
+    .subscribe input {
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 55px;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #8A8686;
+        font-weight: 400;
+        width: 100%;
+        padding: 13px 10px 15px 27px;
+    }
+
+    .subscribe svg {
+        position: absolute;
+        top: 7px;
+        right: 10px;
+    }
+
+    .line_1 .title_h6 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+}
+
+/* width = 901px  */
+@media screen and (max-width: 1024px) {
+    .title_h1 {
+        font-size: 40px;
+    }
+
+    .title_h2 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .title_h4 {
+        line-height: 30px;
+    }
+
+    .p_20 p {
+        line-height: 25px;
+    }
+
+    .p_30 p {
+        font-size: 25px;
+        line-height: 36px;
+    }
+
+    .p_40 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .p_45 {
+        font-size: 45px;
+        line-height: 68px;
+    }
+
+    .container {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .button {
+        font-size: 18px;
+    }
+
+    .nav_bar ul a {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .herobanner_info p span {
+        font-size: 35px;
+    }
+
+    .hero-banner-text {
+        padding: 225px 0px 100px 0px;
+    }
+
+    .herobanner_info h1 {
+        padding-bottom: 20px;
+    }
+
+    .herobanner_button {
+        margin-top: 45px;
+    }
+
+    .company_marketing {
+        margin: -52px 47px 0px 47px;
+        padding: 50px 0px 43px 0px;
+    }
+
+    .company_marketing_heading {
+        text-align: center;
+        max-width: 1234px;
+        padding-bottom: 40px;
+    }
+
+    .company_marketing_button {
+        padding-top: 50px;
+    }
+
+    .what_we_offer_heading h2 {
+        padding-bottom: 20px;
+    }
+
+    .what_we_offer_heading {
+        padding-bottom: 20px;
+    }
+
+    .who_are_we_button {
+        padding-top: 30px;
+    }
+
+    .what_we_offer {
+        padding: 40px 0px 50px 0px;
+    }
+
+    .service_info img {
+        max-width: 170px;
+    }
+
+    .service_info h3 {
+        min-height: 80px;
+    }
+
+    .service_info_button .button {
+        font-size: 16px;
+    }
+
+    .contact {
+        background-color: #EFA500;
+        padding: 19px 0px 7px 0px;
+    }
+
+    .testimonials_text {
+        width: 450px;
+    }
+
+    .testimonials_ratings {
+        padding-bottom: 15px;
+    }
+
+    .check_what_our_clients_are_saying {
+        padding: 30px 0px 40px 0px;
+    }
+
+    .testimonials_headings {
+        padding-bottom: 40px;
+    }
+
+    .our_partners {
+        padding: 30px 0px 10px 0px;
+    }
+
+    .get_in_touch_heading {
+        padding-bottom: 45px;
+    }
+
+    .footer_content{
+        column-gap: 10px;
+    }
+
+    .footer_images {
+        width: 27.13%;
+    }
+
+    .Services {
+        max-width: none;
+        width: 30%;
+    }
+
+    .Services a {
+        font-size: 17px;
+        line-height: 25px;
+        padding-bottom: 15px;
+    }
+
+    .Locations {
+        max-width: none;
+        width: 28%;
+    }
+
+    .company {
+        max-width: none;
+        width: 26%;
+        padding-bottom: 20px;
+    }
+
+    .company a {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .line_1 .title_h6 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+/* width 768px */
+@media screen and (max-width: 900px) {
+    .title_h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .title_h2 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .title_h4 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+
+    .title_h5 {
+        font-size: 45px;
+        line-height: 50.5px;
+    }
+
+    .title_h6 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .p_20 p {
+        line-height: 24px;
+    }
+
+    .p_20 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .p_21 {
+        font-size: 18px;
+    }
+
+    .p_30 p {
+        font-size: 30px;
+        line-height: 41px;
+    }
+
+    .p_40 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .p_45 {
+        font-size: 45px;
+        line-height: 68px;
+    }
+
+    .container {
+        padding: 25px;
+    }
+
+    .button {
+        padding: 5px 40px;
+    }
+
+    .nav_bar ul a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .header_logo {
+        width: 24.74%;
+    }
+
+    .p_30 p {
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .herobanner{
+        margin-top: -206px;
+    }
+    
+    .herobanner_info p span {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .hero-banner-text {
+        padding: 190px 0px 80px 0px;
+        position: relative;
+    }
+
+    .herobanner_button {
+        margin-top: 40px;
+    }
+
+    .company_marketing {
+        margin: -45px 47px 0px 47px;
+        padding: 20px 0px 13px 0px;
+    }
+
+    .company_marketing_heading {
+        padding-bottom: 30px;
+    }
+
+    .company_marketing_button {
+        padding-top: 40px;
+    }
+
+    .service_info h3 {
+        min-height: 40px;
+        font-size: 23px;
+    }
+
+    .service_info p {
+        padding-bottom: 12px;
+    }
+
+    .service_info img {
+        max-width: 150px;
+    }
+
+    .who_are_we_text h2 {
+        padding-bottom: 20px;
+    }
+
+    .who_are_we_button {
+        padding-top: 30px;
+    }
+
+    .who_are_we {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .what_we_offer {
+        padding: 15px 0px 29px 0px;
+    }
+
+    .service {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .p_40 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .contact {
+        padding: 10px 0px 7px 0px;
+    }
+
+    .contact_img {
+        width: 32.13%;
+    }
+
+    .contact_text h2 {
+        padding-bottom: 20px;
+    }
+
+    .contact_button {
+        padding-top: 30px;
+    }
+
+    .check_what_our_clients_are_saying {
+        padding: 15px 0px 30px 0px;
+    }
+
+    .testimonials_headings {
+        padding-bottom: 40px;
+    }
+
+    .testimonials_text {
+        width: 49%;
+    }
+
+    .testimonials_text .p_20 {
+        padding-bottom: 14px;
+        color: #1B1C31;
+        width: 97%;
+        text-align: justify;
+        line-height: 30px;
+    }
+
+    .title_h4_name {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .title_h4_company {
+        font-size: 17px;
+    }
+
+    .our_partners {
+        padding: 50px 0px 40px 0px;
+    }
+
+    .get_in_touch_button a {
+        padding: 10px 98px;
+    }
+
+    .our_partners_images {
+        flex-wrap: wrap;
+    }
+
+    .our_partners_images img {
+        width: 27%;
+    }
+
+    .get_in_touch {
+        padding: 30px 0px;
+    }
+
+    .get_in_touch_heading {
+        padding-bottom: 40px;
+    }
+
+    .get_in_touch_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get_in_touch_text {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .get_in_touch_form {
+        width: 61%;
+        text-align: center;
+    }
+
+    .get_in_touch_button a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .get_in_touch_info .p_30 {
+        font-size: 25px;
+    }
+
+    .get_in_touch_info .p_20 {
+        font-size: 15px;
+    }
+
+    .get_in_touch_form_input input {
+        font-size: 14px;
+    }
+
+    .get_in_touch_form_input textarea {
+        font-size: 14px;
+    }
+
+    .company {
+        max-width: 228px;
+    }
+
+    .company a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer_content {
+        flex-wrap: wrap;
+    }
+
+    .Locations {
+        max-width: 280px;
+        padding-bottom: 48px;
+    }
+
+    .subscribe {
+        max-width: 211px;
+    }
+
+    .subscribe input {
+        width: 100%;
+        padding: 13px 10px 15px 27px;
+    }
+
+    .subscribe svg {
+        right: 10px;
+    }
+
+    .Locations {
+        max-width: 327px;
+    }
+
+    .Services {
+        max-width: 247px;
+    }
+
+    .footer_images {
+        width: 27.13%;
+    }
+
+    .line_1 .title_h6 {
+        font-size: 17px;
+    }
+
+    footer {
+        padding: 15px 0px 5px 0px;
+    }
+}
+
+/* width = 601px */
+@media screen and (max-width: 767px) {
+    .mobileIcon {
+        display: block;
+    }
+
+    .mobileIcon {
+        height: 35px;
+        cursor: pointer;
+        z-index: 99999;
+        position: relative;
+        display: flex;
+        align-items: center;
+        min-width: 44px;
+    }
+
+    .mobileIcon a {
+        width: 55px;
+        height: 7px;
+        border-radius: 0;
+        display: inline-block;
+        background: #000;
+        position: relative;
+        -webkit-transition: all .3s ease 0s;
+        -moz-transition: all .3s ease 0s;
+        -ms-transition: all .3s ease 0s;
+        -o-transition: all .3s ease 0s;
+        transition: all .3s ease 0s;
+    }
+
+    .mobileIcon a:before {
+        position: absolute;
+        content: '';
+        width: 54px;
+        height: 7px;
+        border-radius: 0;
+        background: #ffffff;
+        top: -12px;
+        -webkit-transition: all .3s ease 0s;
+        -moz-transition: all .3s ease 0s;
+        -ms-transition: all .3s ease 0s;
+        -o-transition: all .3s ease 0s;
+        transition: all .3s ease 0s;
+    }
+
+    .mobileIcon a:after {
+        position: absolute;
+        content: '';
+        width: 54px;
+        height: 7px;
+        border-radius: 0;
+        background: #000;
+        bottom: -12px;
+        -webkit-transition: all .3s ease 0s;
+        -moz-transition: all .3s ease 0s;
+        -ms-transition: all .3s ease 0s;
+        -o-transition: all .3s ease 0s;
+        transition: all .3s ease 0s;
+    }
+
+    .menu-open .mobileIcon a {
+        background: rgb(255 255 255 / 0%);
+    }
+
+    .menu-open .mobileIcon a:before {
+        transform: rotate(45deg);
+        top: -1px;
+        background: #ffffff;
+    }
+
+    .menu-open .mobileIcon a:after {
+        transform: rotate(-45deg);
+        top: -1px;
+        background: #ffffff;
+    }
+
+    .mobileIcon a:before {
+        width: 24px;
+        height: 4px;
+        border-radius: 5px;
+        background: white;
+    }
+
+    .mobileIcon a,
+    .mobileIcon a:after {
+        width: 24px;
+        height: 4px;
+        border-radius: 5px;
+        background: white;
+    }
+
+    .mobileIcon a {
+        width: 24px;
+    }
+
+    .right_menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #101031;
+        bottom: 0;
+        z-index: 999;
+        width: 100%;
+        transition: transform 300ms ease-in-out 0s;
+        transform: translate3d(100%, 0, 0);
+        transition: transform 300ms ease, opacity 300ms ease;
+        padding: 50px 30px 30px;
+        box-shadow: 0 10px 10px 0 rgb(0 0 0 / 23%);
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        max-width: 100%;
+    }
+
+    .menu-open .right_menu {
+        transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+        backface-visibility: hidden;
+        transition: transform 300ms ease, opacity 300ms ease;
+    }
+
+    .menu-open {
+        overflow: hidden;
+    }
+
+    .title_h1 {
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+
+    .title_h2 {
+        font-size: 50px;
+        line-height: 75px;
+    }
+
+    .title_h3 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .title_h6 {
+        font-size: 25px;
+    }
+
+    .p_20 p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .p_20 {
+        font-size: 16px;
+    }
+
+    .p_21 {
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .p_30 p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .p_40 {
+        font-size: 30px;
+    }
+
+    .p_45 {
+        font-size: 45px;
+        line-height: 68px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .button {
+        font-size: 20px;
+        padding: 5px 30px;
+    }
+
+    .nav_bar ul {
+        flex-direction: column;
+    }
+
+    .nav_bar ul a {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .header_logo {
+        width: 30.74%;
+    }
+
+    .herobanner_info p span {
+        font-size: 28px;
+    }
+
+    .herobanner_info h1 br {
+        display: none;
+    }
+
+    .hero-banner-text {
+        padding: 210px 0px 80px 0px;
+    }
+
+    .herobanner_button {
+        margin-top: 30px;
+    }
+
+    .company_marketing {
+        margin: -44px 47px 0px 47px;
+        padding: 40px 0px 35px 0px;
+    }
+
+    .company_marketing_numbers {
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+
+    .company_marketing_content {
+        width: 49%;
+    }
+
+    .who_are_we_img {
+        width: 38.41%;
+    }
+
+    .who_are_we_text .title_h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .contact_text .title_h3 {
+        font-size: 33px;
+    }
+
+    .p_40 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .contact_img {
+        width: 40.13%;
+    }
+
+
+    .testimonials_face {
+        width: 35.72%;
+    }
+
+    .check_what_our_clients_are_saying {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .service_info h3 {
+        min-height: 76px;
+    }
+
+    .testimonials_headings .title_h3 {
+        font-size: 25px;
+    }
+
+    .testimonials_headings {
+        padding-bottom: 30px;
+    }
+
+    .our_partners_images img {
+        width: 40%;
+    }
+
+    .get_in_touch_heading {
+        padding-bottom: 15px;
+    }
+
+    .get_in_touch_content {
+        flex-direction: column;
+    }
+
+    .get_in_touch_text {
+        padding-bottom: 60px;
+        width: 100%;
+    }
+
+    .get_in_touch_info .p_30 {
+        font-size: 22px;
+    }
+
+    .get_in_touch_form {
+        width: 100%;
+    }
+
+    .get_in_touch_form_input {
+        width: 100%;
+    }
+
+    .get_in_touch_form_input input {
+        font-size: 16px;
+    }
+
+    .get_in_touch_form_input textarea {
+        font-size: 16px;
+    }
+
+    .subscribe{
+        max-width: 174px;
+    }
+    .subscribe input {
+        width: 100%;
+        padding: 13px 4px 15px 27px;
+    }
+
+    .subscribe svg {
+        right: 4px;
+    }
+
+    .company {
+        width: 37%;
+    }
+
+    .footer_images {
+        width: 31.13%;
+    }
+
+    .Services {
+        width: 36%;
+    }
+
+    .Services a {
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .Locations {
+        width: 33%;
+    }
+
+    .footer_content {
+        row-gap: 34px;
+    }
+
+    .line_1 .title_h6 {
+        font-size: 16px;
+    }
+}
+
+/* width = 480px */
+@media screen and (max-width: 600px) {
+    .header_logo {
+        width: 40%;
+    }
+
+    .herobanner_button .button {
+        font-size: 23px;
+        padding: 10px 40px;
+    }
+
+    .title_h1 {
+        font-size: 37px;
+        line-height: 53px;
+    }
+
+    .p_30 p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .herobanner_info {
+        width: 100%;
+    }
+
+    .herobanner_info p span {
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    .company_marketing {
+        margin: -44px 0px 0px 0px;
+        padding: 40px 0px 35px 0px;
+    }
+
+    .company_marketing .title_h3 {
+        font-size: 39px;
+        line-height: 55px;
+    }
+
+    .company_marketing_button .button {
+        font-size: 23px;
+        padding: 10px 40px;
+    }
+
+    .who_are_we_button .button {
+        font-size: 22px;
+        padding: 10px 30px;
+    }
+
+    .who_are_we {
+        margin: 0px;
+    }
+
+    .who_are_we_text .title_h3 {
+        font-size: 28px;
+    }
+
+    .who_are_we_img {
+        width: 42.41%;
+    }
+
+    .what_we_offer {
+        margin: 0px;
+    }
+
+    .contact_text .title_h3 {
+        font-size: 31px;
+        line-height: 40px;
+    }
+
+    .p_40 {
+        font-size: 32px;
+    }
+
+    .contact_img {
+        width: 57%;
+    }
+
+    .contact {
+        padding: 25px 0px;
+    }
+
+    .contact .container {
+        padding: 0 20px;
+    }
+
+    .contact_text {
+        width: 100%;
+    }
+
+    .contact_content {
+        flex-direction: column-reverse;
+    }
+
+    .contact_text .title_h3 {
+        font-size: 35px;
+    }
+
+    .p_40 {
+        font-size: 35px;
+    }
+
+    .contact_button .button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .testimonials_content {
+        flex-direction: column;
+    }
+
+    .testimonials_headings .title_h3 {
+        font-size: 30px;
+    }
+
+    .testimonials_headings {
+        padding-bottom: 55px;
+    }
+
+    .testimonials_face {
+        width: 50%;
+        padding-bottom: 37px;
+    }
+
+    .testimonials_text {
+        width: 100%;
+    }
+
+    .testimonials_text .p_20 {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .testimonials_ratings {
+        text-align: center;
+    }
+
+    .title_h4_name {
+        line-height: 25px;
+    }
+
+    .title_h4_company ,.title_h4_name{
+        font-size: 19px;
+        text-align: right;
+    }
+
+    .service_info_button .button {
+        font-size: 20px;
+    }
+
+    .check_what_our_clients_are_saying {
+        margin: 0px;
+    }
+
+    .our_partners {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .footer_content {
+        flex-direction: column;
+    }
+
+    .footer_images {
+        width: 50%;
+    }
+
+    .subscribe{
+        max-width: 200px;
+        
+    }
+ 
+    .Services {
+        width: 100%;
+    }
+
+    .Locations {
+        width: 63%;
+        padding: 0px;
+    }
+
+    .company {
+        width: 100%;
+    }
+
+    .line_1 .title_h6 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+/* width = 375px */
+@media screen and (max-width: 479px) {
+    .footer_content {
+        flex-wrap: wrap;
+        align-items: baseline;
+        row-gap: 20px;
+    }
+
+    .footer_images {
+        width: 60%;
+    }
+
+    .footer_logo {
+        padding-bottom: 20px;
+    }
+
+    .company_marketing .title_h3 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .company_marketing .title_h2 {
+        font-size: 45px;
+        line-height: 65px;
+    }
+
+    .company_marketing .p_21 {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+    .who_are_we {
+        margin: 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .who_are_we_content {
+        flex-direction: column-reverse;
+        padding: 30px 0px;
+        align-items: baseline;
+    }
+
+    .who_are_we_img {
+        width: 70%;
+        padding-bottom: 40px;
+    }
+
+    .who_are_we_text {
+        width: 100%;
+    }
+
+    .who_are_we_text .title_h3 {
+        font-size: 35px;
+    }
+
+    .p_20 p {
+        font-size: 18px;
+    }
+
+    .who_are_we_button .button {
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .service_info h3 {
+        font-size: 20px;
+    }
+
+    .service_info_button .button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact {
+        padding: 30px 0px;
+    }
+
+    .contact_content {
+        flex-direction: column-reverse;
+    }
+
+    .contact_text {
+        width: 100%;
+    }
+
+    .contact_text .title_h3 {
+        line-height: 45px;
+    }
+
+    .p_40 {
+        line-height: 40px;
+    }
+
+    .contact_button .button {
+        font-size: 25px;
+    }
+
+    .testimonials_headings {
+        padding-bottom: 60px;
+    }
+
+    .testimonials_content {
+        flex-direction: column;
+    }
+
+    .testimonials_text {
+        width: 100%;
+    }
+
+    .testimonials_face {
+        width: 60%;
+        padding-bottom: 35px;
+    }
+
+    .testimonials_ratings {
+        padding-bottom: 10px;
+    }
+
+    .testimonials_text .p_20 {
+        width: 100%;
+
+    }
+
+    .our_partners_images img {
+        width: 52%;
+    }
+
+    .get_in_touch_info .p_30 {
+        font-size: 20px;
+    }
+
+    .get_in_touch_text {
+        padding-bottom: 70px;
+    }
+
+    .subscribe{
+        max-width: 190px;
+    }
+
+    .subscribe .input{
+        width: 100%;
+        padding: 13px 10px 15px 27px;
+    }
+
+    .subscribe svg{
+        right: 10px;
+    }
+
+    .Services {
+        width: 100%;
+    }
+
+    .Locations {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+
+    .company {
+        width: 100%;
+    }
+
+    .last_section {
+        display: flex;
+        flex-direction: column;
+        padding-top: 19px;
+        justify-content: space-between;
+    }
+
+    .line_1 {
+        width: 100%;
+    }
+}
